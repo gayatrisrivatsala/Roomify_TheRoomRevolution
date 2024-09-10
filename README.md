@@ -7,7 +7,7 @@ This project is a Flask-based web application that provides an API for generatin
 - Image generation using Stability AI API
 - Database integration for item retrieval
 - CORS support for cross-origin requests
-- Simple web interface
+
 
 ## Prerequisites
 
@@ -45,11 +45,7 @@ Before you begin, ensure you have met the following requirements:
    ```
    python app.py
    ```
-
-2. Access the web interface:
-   - Open a web browser and navigate to `http://localhost:5000`
-
-3. API Endpoints:
+2. API Endpoints:
    - GET `/items`: Retrieve items based on room type and cost range
      - Query parameters: `room` and `range`
    - POST `/generate`: Generate an image based on a prompt and uploaded sketch
